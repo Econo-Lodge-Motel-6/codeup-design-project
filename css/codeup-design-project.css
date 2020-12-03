@@ -111,7 +111,7 @@ p, h6{
     text-transform: uppercase;
 }
 
-img {
+.small-image {
     border: 5px solid #E6E6E6;
     border-radius: 5px;
     width: 205px;
