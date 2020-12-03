@@ -84,6 +84,31 @@ nav a {
 
 }
 
+.headers{
+    margin-bottom: 2em;
+}
+
+.maxViewHeader{
+    display: none;
+}
+.smallHeader{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .smallHeader{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
 
 @media screen and (min-width: 992px) {
 
@@ -98,4 +123,17 @@ nav a {
         top: 5px;
     }
 
+    .headers{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .smallHeader{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .maxViewHeader{
+        display: inline-block;
+    }
 }
