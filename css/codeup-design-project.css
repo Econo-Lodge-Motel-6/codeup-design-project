@@ -111,6 +111,14 @@ p, h6{
     text-transform: uppercase;
 }
 
+img {
+    border: 5px solid #E6E6E6;
+    border-radius: 5px;
+    width: 205px;
+    height: 146px;
+    object-fit: cover;
+}
+
 .large-image{
     border: 5px solid #e6e6e6;
     border-radius: 5px;
