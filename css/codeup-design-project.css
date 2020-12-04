@@ -80,7 +80,7 @@ nav a {
         display: flex;
         justify-content: center;
     }
-    .p-1 img {
+    img {
         border: 5px solid #E6E6E6;
         border-radius: 5px;
         width: 205px;
