@@ -101,6 +101,8 @@ nav a {
     display: flex;
     justify-content: flex-end;
     width: 35%;
+    font-family: 'Anton', sans-serif;
+    font-size: 12px;
 }
 @media screen and (min-width: 500px){
 
